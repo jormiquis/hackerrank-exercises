@@ -89,7 +89,7 @@ class Medium {
         result.add(intervals.get(0));
 
         for (int i = 1; i < intervals.size(); i++) {
-            List<Integer> previous = result.get(result.size() - 1);  //podria coger el i -1?
+            List<Integer> previous = result.get(result.size() - 1);
             List<Integer> current = intervals.get(i);
 
             if (current.get(0) <= previous.get(1)) {
