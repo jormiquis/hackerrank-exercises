@@ -23,7 +23,7 @@ If n > 0, the next n lines contains an integer representing responseTimes[i].
 If n = 0, the second line is omitted or empty.
  */
 
-class Main {
+class Easy {
     public static void main(String[] args) {
         List<Integer> list = List.of(0);
 
