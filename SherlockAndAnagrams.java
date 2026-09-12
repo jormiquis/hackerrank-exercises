@@ -19,11 +19,9 @@ public class SherlockAndAnagrams {
                 String key = new String(orderedSubstring);
 
                 Integer frequency = repeatedFirm.get(key);
-                if (frequency == null) {
-                    repeatedFirm.put(key, 1);
-                } else {
-                    repeatedFirm.put(key, frequency + 1);
-                }
+                if (frequency == null) continue;
+
+                repeatedFirm.put(key, frequency + 1);
              }
         }
 
